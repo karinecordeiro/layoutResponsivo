@@ -1,3 +1,22 @@
+:root{
+    --azul-escuro: #2d1e67;
+    --roxo-claro: #f2dcfe;
+    --roxo-medio: #e4b0fa;
+    --rosa-escuro: #c23a71;
+    --roxo-escuro: #6b0080;
+}
 body{
     font-family: 'Readex Pro', sans-serif;
+}
+.container{
+    padding: 0 6%;
+}
+.botao{
+    border:solid 1px var(--roxo-escuro) ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 350px;
+    padding: 1rem 2rem;
+    text-align: center;
 }

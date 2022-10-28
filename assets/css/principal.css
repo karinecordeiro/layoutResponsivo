@@ -1,7 +1,7 @@
 .principal{
     align-items: center;
-    color: rgb(45, 30, 103);
-    background-color: #f2dcfe;
+    color: var(--azul-escuro);
+    background-color: var(--roxo-claro);
     display: flex;
     flex-direction: column;
     padding-bottom: 2.5rem;
@@ -11,8 +11,9 @@
 .principal__titulo {
     font-size: 2rem;
     font-weight: 500;
-    text-transform: uppercase;
     margin-bottom: 1.5rem;
+    margin-top: 3rem;
+    text-transform: uppercase;
 }
 .principal__texto {
     font-size: 1.25rem;
@@ -21,5 +22,5 @@
     font-weight: 300;
 }
 .principal__botao {
-    width: 100%;
+    width:100%
 }
