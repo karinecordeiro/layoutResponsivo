@@ -1,0 +1,37 @@
+.sobre {
+    padding-bottom: 3.5rem;
+    padding-top: 3.5rem;
+}
+.sobre__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sobre__item {
+    background-position: top 1.25rem left 1.1rem;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    max-width: 350px;
+    padding: 2rem 0 2rem 5rem;
+}
+.sobre__item--material{
+    background-image: url(/assets/imagem/material.png);
+}
+.sobre__item--usabilidade{
+    background-image: url(/assets/imagem/usabilidade.png);
+}
+.sobre__item--experiencia{
+    background-image: url(/assets/imagem/experiencia.png);
+}
+
+.item__titulo {
+    color: var(--rosa-escuro);
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+.item__texto {
+    color: var(--roxo-escuro);
+    line-height: normal;
+}

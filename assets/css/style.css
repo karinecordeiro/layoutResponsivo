@@ -4,6 +4,7 @@
     --roxo-medio: #e4b0fa;
     --rosa-escuro: #c23a71;
     --roxo-escuro: #6b0080;
+    --branco: #ffffff;
 }
 body{
     font-family: 'Readex Pro', sans-serif;
@@ -12,7 +13,7 @@ body{
     padding: 0 6%;
 }
 .botao{
-    border:solid 1px var(--roxo-escuro) ;
+    border: solid 1px var(--roxo-escuro) ;
     border-radius: 5px;
     box-sizing: border-box;
     display: block;
