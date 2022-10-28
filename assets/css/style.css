@@ -1,9 +1,10 @@
 :root{
     --azul-escuro: #2d1e67;
+    --azul-claro: #e6f2ff;
     --roxo-claro: #f2dcfe;
     --roxo-medio: #e4b0fa;
-    --rosa-escuro: #c23a71;
     --roxo-escuro: #6b0080;
+    --rosa-escuro: #c23a71;
     --branco: #ffffff;
 }
 body{
