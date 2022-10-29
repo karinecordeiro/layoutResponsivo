@@ -1,26 +1,25 @@
 .planos {
     background-color: var(--azul-claro);
-    padding-top: 3rem;
     padding-bottom: 3rem;
+    padding-top: 3rem;
 }
 
 .planos__titulo {
     color: var(--azul-escuro);
-    font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 2.25rem;
     text-transform: uppercase;
     text-align: center;
-
-    margin-bottom: 1.25rem;
 }
 
-.planos__cartoes {
+.planos__caixas {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.cartao {
+.caixa {
     display: flex;
     flex-direction: column;
     background-color: var(--branco);
@@ -31,8 +30,8 @@
     box-shadow: 0 2px 10px 2px #00000010;
 }
 
-.cartao__titulo {
-    font-weight: 700;
+.caixa__titulo {
+    font-weight: 500;
     font-size: 1.5rem;
     text-align: center;
     padding: .75rem 0;
@@ -40,11 +39,11 @@
     border-bottom: 1px solid var(--azul-claro);
 }
 
-.cartao__conteudo {
+.caixa__conteudo {
     padding: 0 15%;
 }
 
-.cartao__preco {
+.caixa__preco {
     font-weight: 700;
     font-size: 3rem;
     text-align: center;
@@ -52,41 +51,48 @@
     margin-bottom: 1.25rem;
 }
 
-.cartao__texto {
+.caixa__texto {
     color: var(--fonte-cinza);
     line-height: 28px;
     text-align: center;
 }
 
-.cartao__botao {
+.caixa__botao {
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 500;
     width: 100%;
     align-self: center;
     padding: .75rem 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-.cartao--start {
-    color: var(--planos-cartao-start);
+.caixa--pequena {
+    color: var(--rosa-escuro);
+    box-shadow: 0 2px 10px 2px var(--rosa-claro);
+}
+.caixa--media {
+    color: var(--roxo-escuro);
+    box-shadow: 0 2px 10px 2px var(--roxo-medio);
 }
 
-.cartao--ultra {
-    color: var(--planos-cartao-ultra);
+.caixa--grande {
+    color: var(--azul-escuro);
+    box-shadow: 0 2px 10px 2px var(--azul-medio);
 }
 
-.cartao--mega {
-    color: var(--planos-cartao-mega);
+.caixa__botao--pequena {
+    border-color: var(--rosa-escuro);
 }
 
-.cartao__botao--start {
-    border-color: var(--planos-cartao-start);
+.caixa__botao--media {
+    border-color: var(--roxo-escuro);
 }
 
-.cartao__botao--ultra {
-    border-color: var(--planos-cartao-ultra);
+.caixa__botao--grande {
+    border-color: var(--azul-escuro);
 }
-
-.cartao__botao--mega {
-    border-color: var(--planos-cartao-mega);
+.ponto{
+    background-image: url(/assets/imagem/ponto.png);
+    background-repeat: no-repeat;
+    background-position: top 0.4rem left 0.95rem;
 }
