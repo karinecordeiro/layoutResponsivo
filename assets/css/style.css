@@ -1,9 +1,12 @@
 :root{
     --azul-escuro: #2d1e67;
+    --azul-claro: #e6f2ff;
+    --azul-medio:#9784e1;
     --roxo-claro: #f2dcfe;
     --roxo-medio: #e4b0fa;
-    --rosa-escuro: #c23a71;
     --roxo-escuro: #6b0080;
+    --rosa-escuro: #c23a71;
+    --rosa-claro:#dcb4ca;
     --branco: #ffffff;
 }
 body{
@@ -13,7 +16,7 @@ body{
     padding: 0 6%;
 }
 .botao{
-    border: solid 1px var(--roxo-escuro) ;
+    border: solid 1px var(--azul-escuro) ;
     border-radius: 5px;
     box-sizing: border-box;
     display: block;
