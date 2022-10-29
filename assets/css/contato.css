@@ -1,0 +1,21 @@
+.contato {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+.contato__titulo {
+    color: var(--rosa-escuro);
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contato__botao {
+    border-color: var(--rosa-escuro);
+    color: var(--rosa-escuro);
+    margin-top: 1rem;
+}
