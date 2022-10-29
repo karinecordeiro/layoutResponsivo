@@ -1,14 +1,15 @@
 :root{
-    --azul-escuro: #2d1e67;
     --azul-claro: #e6f2ff;
     --azul-medio:#9784e1;
+    --azul-escuro: #2d1e67;
     --roxo-claro: #f2dcfe;
     --roxo-medio: #e4b0fa;
     --roxo-escuro: #6b0080;
+    --rosa-claro: #f0c4d3;
+    --rosa-medio:#e2a6b7;
     --rosa-escuro: #c23a71;
-    --rosa-medio: #f0c4d3;
-    --rosa-claro:#e2a6b7;
     --branco: #ffffff;
+    --cinza: #e7dbdb;
 }
 body{
     font-family: 'Readex Pro', sans-serif;

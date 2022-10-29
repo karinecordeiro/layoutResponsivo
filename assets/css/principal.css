@@ -1,7 +1,7 @@
 .principal{
     align-items: center;
-    color: var(--azul-escuro);
     background-color: var(--roxo-claro);
+    color: var(--azul-escuro);
     display: flex;
     flex-direction: column;
     padding-bottom: 2.5rem;
@@ -11,7 +11,7 @@
 .principal__titulo {
     font-size: 1.75rem;
     font-weight: 500;
-    margin-top: 2rem;
+    margin-top: 3rem;
     text-transform: uppercase;
 }
 .principal__texto {
@@ -24,3 +24,4 @@
     margin: 1.5rem 0;
     width:100%;
 }
+
