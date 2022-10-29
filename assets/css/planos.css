@@ -3,96 +3,84 @@
     padding-bottom: 3rem;
     padding-top: 3rem;
 }
-
 .planos__titulo {
     color: var(--azul-escuro);
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 500;
     margin-bottom: 2.25rem;
-    text-transform: uppercase;
     text-align: center;
+    text-transform: uppercase;
 }
-
 .planos__caixas {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-
 .caixa {
-    display: flex;
-    flex-direction: column;
     background-color: var(--branco);
-    width: 100%;
-    max-width: 300px;
-    margin-bottom: 2rem;
     border-radius: 5px;
     box-shadow: 0 2px 10px 2px #00000010;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    max-width: 300px;
+    width: 100%;
 }
-
 .caixa__titulo {
-    font-weight: 500;
-    font-size: 1.5rem;
-    text-align: center;
-    padding: .75rem 0;
-    margin-bottom: .5rem;
     border-bottom: 1px solid var(--azul-claro);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    padding: .75rem 0;
+    text-align: center;
 }
-
 .caixa__conteudo {
     padding: 0 15%;
 }
-
 .caixa__preco {
-    font-weight: 700;
     font-size: 3rem;
-    text-align: center;
-    margin-top: 1.25rem;
+    font-weight: 700;
     margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+    text-align: center;
 }
-
 .caixa__texto {
     color: var(--fonte-cinza);
     line-height: 28px;
     text-align: center;
 }
-
 .caixa__botao {
+    align-self: center;
     font-size: 1.2rem;
     font-weight: 500;
-    width: 100%;
-    align-self: center;
-    padding: .75rem 2rem;
-    margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: .75rem 2rem;
+    width: 100%;
 }
 .caixa--pequena {
-    color: var(--rosa-escuro);
     box-shadow: 0 2px 10px 2px var(--rosa-claro);
+    color: var(--rosa-escuro);
 }
 .caixa--media {
-    color: var(--roxo-escuro);
     box-shadow: 0 2px 10px 2px var(--roxo-medio);
+    color: var(--roxo-escuro);
 }
-
 .caixa--grande {
-    color: var(--azul-escuro);
     box-shadow: 0 2px 10px 2px var(--azul-medio);
+    color: var(--azul-escuro);
 }
-
 .caixa__botao--pequena {
     border-color: var(--rosa-escuro);
 }
-
 .caixa__botao--media {
     border-color: var(--roxo-escuro);
 }
-
 .caixa__botao--grande {
     border-color: var(--azul-escuro);
 }
 .ponto{
     background-image: url(/assets/imagem/ponto.png);
-    background-repeat: no-repeat;
     background-position: top 0.4rem left 0.95rem;
+    background-repeat: no-repeat;
 }

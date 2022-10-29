@@ -6,7 +6,8 @@
     --roxo-medio: #e4b0fa;
     --roxo-escuro: #6b0080;
     --rosa-escuro: #c23a71;
-    --rosa-claro:#dcb4ca;
+    --rosa-medio: #f0c4d3;
+    --rosa-claro:#e2a6b7;
     --branco: #ffffff;
 }
 body{
@@ -23,4 +24,9 @@ body{
     max-width: 350px;
     padding: 1rem 2rem;
     text-align: center;
+}
+.botao:hover{
+    background-image:linear-gradient( to right, #b70b54 33%, #6f156c, #1f277a);
+    border: none;
+    color:var(--branco);
 }
