@@ -4,8 +4,7 @@
     box-sizing: border-box;
     color: var(--rosa-escuro);
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: column;
     padding-bottom: .75rem;
     padding-top: .75rem;
     position: absolute;
