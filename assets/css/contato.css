@@ -14,8 +14,11 @@
     text-align: center;
     text-transform: uppercase;
 }
+.contato__texto{
+    color: var(--azul-escuro);
+}
 .contato__botao {
     border-color: var(--rosa-escuro);
     color: var(--rosa-escuro);
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
