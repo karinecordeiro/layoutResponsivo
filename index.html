@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Caixa secreta</title>
     <link rel="icon" href="/assets/imagem/icone.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,17 +17,17 @@
     <link rel="stylesheet" href="/assets/css/planos.css">
     <link rel="stylesheet" href="/assets/css/contato.css">
     <link rel="stylesheet" href="/assets/css/rodape.css">
-
 </head>
+
 <body>
     <header class="cabecalho container" id="inicio">
         <img class="cabecalho__logo" src="/assets/imagem/logo.png" alt="Logo caixa secreta">
         <nav class="cabecalho__navegacao">
             <ul>
-                <li class="cabecalho__link"><a href="#inicio"></a>Inicio</li>
-                <li class="cabecalho__link"><a href="#sobre"></a>Sobre</li>
-                <li class="cabecalho__link"><a href="#planos"></a>Planos</li>
-                <li class="cabecalho__link"><a href="#contato"></a>Contato</li>
+                <a href="#inicio"><li class="cabecalho__link">inicio</li></a>
+                <a href="#sobre"><li class="cabecalho__link">sobre</li></a>
+                <a href="#planos"><li class="cabecalho__link">planos</li></a>
+                <a href="#contato"><li class="cabecalho__link">contato</li></a>
             </ul>
         </nav>
     </header>
@@ -40,7 +39,7 @@
             <a class="principal__botao botao" href="#planos">Conheça os planos</a>
         </section>
 
-        <section class="sobre container" id="sobre">
+        <section class="sobre" id="sobre">
             <ul class="sobre__lista">
                 <li class="sobre__item sobre__item--material">
                     <h2 class="item__titulo">Material</h2>
@@ -92,18 +91,20 @@
                 </li>
             </ul>
         </section>
-        <section class="contato container">
+        <section class="contato container" id="contato">
             <h2 class="contato__titulo">Contato</h2>
             <p class="contato__texto">Entre em contato conosco por nossos meios de comunicação acessando o botão abaixo!</p>
             <a href="#" class="contato__botao botao">Entre em contato</a>
         </section>
     </main>
-    <footer class="rodape container">
+    <footer class="rodape">
         <img class="rodape__logo" src="/assets/imagem/logo.png" alt="Logo caixa secreta">
-        <a class="rodape__link" href="#"><img src="/assets/imagem/instagram.png" alt="link do instagram"></a> 
-        <a class="rodape__link" href="#"><img src="/assets/imagem/telegram.png" alt="link do telegram"></a>
+        <section class="rodape__itens">
+            <a class="rodape__item" href="#"><img class="rodape__link" src="/assets/imagem/whatsapp.png" alt="link do whatsapp"></a>
+            <a class="rodape__item" href="#"><img class="rodape__link" src="/assets/imagem/instagram.png" alt="link do instagram"></a> 
+            <a class="rodape__item" href="#"><img class="rodape__link" src="/assets/imagem/telegram.png" alt="link do telegram"></a>
+        </section>
         <p class="rodape__texto">&copy; Todos os direitos reservados - 2022</p>
-        
     </footer>
 </body>
 </html>

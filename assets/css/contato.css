@@ -21,3 +21,13 @@
     border-color: var(--rosa-escuro);
     margin-top: 1.5rem;
 }
+
+/*tablet*/
+@media screen and (min-width: 768px){
+    .contato__texto{
+        padding: 0 5rem;
+    }
+    .contato__botao{
+        font-size: 1.15rem;
+    }
+}
