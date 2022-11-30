@@ -11,6 +11,9 @@
     --branco: #ffffff;
     --cinza: #e7dbdb;
 }
+html {
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Readex Pro', sans-serif;
 }
