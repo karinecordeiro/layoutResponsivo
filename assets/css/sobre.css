@@ -35,3 +35,12 @@
     color: var(--roxo-escuro);
     line-height: normal;
 }
+
+/*desktop*/
+@media screen and (min-width: 1024px) {
+    .sobre__lista{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+

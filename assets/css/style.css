@@ -11,6 +11,9 @@
     --branco: #ffffff;
     --cinza: #e7dbdb;
 }
+html {
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Readex Pro', sans-serif;
 }
@@ -30,4 +33,12 @@ body{
     background-image:linear-gradient( to right, #b70b54 33%, #6f156c, #1f277a);
     border: none;
     color:var(--branco);
+}
+
+/*desktop*/
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
 }
