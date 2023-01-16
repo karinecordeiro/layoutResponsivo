@@ -18,8 +18,11 @@
     color: var(--azul-escuro);
 }
 .contato__botao {
-    border-color: var(--rosa-escuro);
     margin-top: 1.5rem;
+}
+.contato__botao:hover{
+    background-color: var(--rosa-medio);
+    color: var(--branco);
 }
 
 /*tablet*/

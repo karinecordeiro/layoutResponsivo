@@ -25,6 +25,10 @@
     margin-right: .7rem;
     text-transform:uppercase;
 }
+.principal__botao:hover{
+    background-color: var(--azul-medio);
+    color: var(--azul-escuro);
+}
 
 /*desktop*/
 @media screen and (min-width: 1024px) {

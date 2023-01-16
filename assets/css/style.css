@@ -1,12 +1,12 @@
 :root{
     --azul-claro: #e6f2ff;
-    --azul-medio:#9784e1;
+    --azul-medio:#b4b6e0;
     --azul-escuro: #2d1e67;
     --roxo-claro: #f2dcfe;
-    --roxo-medio: #e4b0fa;
+    --roxo-medio: #dda4f5;
     --roxo-escuro: #6b0080;
-    --rosa-claro: #f0c4d3;
-    --rosa-medio:#e2a6b7;
+    --rosa-claro: #f5cfda;
+    --rosa-medio:#da869e;
     --rosa-escuro: #c23a71;
     --branco: #ffffff;
     --cinza: #e7dbdb;
@@ -21,18 +21,18 @@ body{
     padding: 0 6%;
 }
 .botao{
-    border: solid 1px var(--azul-escuro) ;
+    background-image:linear-gradient(to top, var(--rosa-escuro)15%, var(--roxo-escuro), var(--azul-escuro));
     border-radius: 5px;
     box-sizing: border-box;
+    color:var(--branco);
     display: block;
     max-width: 350px;
     padding: 1rem 2rem;
     text-align: center;
 }
 .botao:hover{
-    background-image:linear-gradient( to right, #b70b54 33%, #6f156c, #1f277a);
-    border: none;
-    color:var(--branco);
+    background-image: var(--roxo-claro);
+    color:var(--azul-escuro);
 }
 
 /*desktop*/

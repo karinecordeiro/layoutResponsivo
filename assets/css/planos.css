@@ -50,7 +50,7 @@
 }
 .caixa__botao {
     align-self: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
     margin-bottom: 1rem;
     margin-top: 1rem;
@@ -69,14 +69,17 @@
     box-shadow: 0 2px 10px 2px var(--azul-medio);
     color: var(--azul-escuro);
 }
-.caixa__botao--pequena {
-    border-color: var(--rosa-escuro);
+.caixa__botao--pequena:hover {
+    background-color: var(--rosa-claro);
+    color: var(--rosa-escuro)
 }
-.caixa__botao--media {
-    border-color: var(--roxo-escuro);
+.caixa__botao--media:hover {
+    background-color: var(--roxo-claro);
+    color: var(--roxo-escuro);
 }
-.caixa__botao--grande {
-    border-color: var(--azul-escuro);
+.caixa__botao--grande:hover {
+    background-color: var(--azul-medio);
+    color: var(--azul-escuro);
 }
 .ponto{
     background-image: url(/assets/imagem/ponto.png);
@@ -106,9 +109,6 @@
     }
     .caixa__preco{
         margin: 2rem 0;
-    }
-    .caixa__botao{
-        margin-top: 2rem;
     }
     .ponto{
         background-position: top 0.45rem left 1rem;
