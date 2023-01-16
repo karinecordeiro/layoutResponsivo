@@ -6,19 +6,17 @@
     flex-direction: column;
     padding-bottom: 2.5rem;
     padding-top: 12.25rem;
-    text-align: center;
 }
 .principal__titulo {
     font-size: 1.75rem;
     font-weight: 500;
-    margin-top: 3rem;
-    text-transform: uppercase;
+    margin:3rem 0 1rem 0;
+
 }
 .principal__texto {
-    font-size: 1.25rem;
+    font-size: 1.20rem;
     font-weight: 300;
     line-height: normal;
-    margin: 1rem 2.5rem;
 }
 .principal__botao {
     margin: 1.5rem 0;
@@ -27,6 +25,7 @@
 /*tablet*/
 @media screen and (min-width: 768px){ 
     .principal__titulo{
+        font-size: 2rem;
         margin-top: 1rem; 
     } 
 }
@@ -34,6 +33,7 @@
 /*desktop*/
 @media screen and (min-width: 1024px){
     .principal__titulo{
+        font-size: 2rem;
         margin-top: 0;
     }
     .principal__texto{
