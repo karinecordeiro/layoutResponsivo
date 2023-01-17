@@ -74,7 +74,7 @@
     color: var(--rosa-escuro)
 }
 .caixa__botao--media:hover {
-    background-color: var(--roxo-claro);
+    background-color: var(--roxo-medio);
     color: var(--roxo-escuro);
 }
 .caixa__botao--grande:hover {
