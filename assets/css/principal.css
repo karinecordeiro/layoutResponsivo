@@ -1,3 +1,15 @@
+.pularNavegacao,
+.pularNavegacao:active,
+.pularNavegacao:focus,
+.pularNavegacao:hover {
+    text-indent: 100%;
+    white-space : nowrap;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    color: transparent;
+    position: absolute;
+}
 .principal{
     align-items: center;
     background-color: var(--roxo-claro);

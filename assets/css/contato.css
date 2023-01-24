@@ -20,9 +20,34 @@
     margin-top: 1.5rem;
 }
 .contato__botao:hover{
-    background-color: var(--rosa-medio);
+    background-color: var(--roxo-escuro);
     color: var(--branco);
 }
+.fundo{
+    background-color: var(--branco);
+    border-radius: 10px;
+    box-shadow: var(--sombra);
+    box-sizing: border-box;
+    padding: 1.75rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    max-width: 45rem;
+    width: 80%; 
+    text-align: center;
+}
+
+.formulario__input{
+    border: 1px solid var(--azul-escuro);
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: .5rem 0;
+}
+
+.formulario__botao{
+    max-width: 200px;
+    margin: auto;
+}
+
 
 /*tablet*/
 @media screen and (min-width: 768px){
@@ -31,5 +56,23 @@
     }
     .contato__botao{
         font-size: 1.15rem;
+    }
+    .fundo{
+        margin-top: 1.5rem;
+    }
+    .formulario__input{
+        padding: 0.5rem 7rem;
+
+    }
+}
+
+/*desktop*/
+@media screen and (min-width: 1024px){
+    .fundo{
+        margin-top: 0;
+        text-align: start;
+    }
+    .formulario__input{
+        padding: 0.5rem 15rem;
     }
 }

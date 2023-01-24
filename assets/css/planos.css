@@ -48,6 +48,16 @@
     line-height: 28px;
     text-align: center;
 }
+.escondeVisualmente {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
 .caixa__botao {
     align-self: center;
     font-size: 1rem;

@@ -20,6 +20,9 @@
 </head>
 
 <body>
+
+    <a href="#pularNavegacao" class="pularNavegacao">Pular navegação</a>
+
     <header class="cabecalho container" id="inicio">
         <img class="cabecalho__logo" src="/assets/imagem/logo.png" alt="Logo caixa secreta">
         <nav class="cabecalho__navegacao">
@@ -32,11 +35,11 @@
         </nav>
     </header>
     
-    <main>
-        <section class="principal con tainer">
+    <main role="main">
+        <section class="principal container" id="pularNavegacao">
             <h1 class="principal__titulo">A caixa de papelaria mais requisitada</h1>
-            <h2 class="principal__texto">A caixa secreta trás itens de papelaria inovadores de alta qualidade, que ajudam você, estudante, a ter um melhor desempenho nos estudos!
-            </h2>
+            <p class="principal__texto">A caixa secreta trás itens de papelaria inovadores de alta qualidade, que ajudam você, estudante, a ter um melhor desempenho nos estudos!
+            </p>
             <a class="principal__botao botao" href="#planos">Conheça os planos</a>
         </section>
 
@@ -48,7 +51,7 @@
                 </li>
                 <li class="sobre__item sobre__item--usabilidade">
                     <h2 class="item__titulo">Usabilidade</h2>
-                    <h3 class="item__texto">Itens preparados para total usabilidade. Você não perde nada! Até a embalagem por ser reutilizavél.</h3>
+                    <h3 class="item__texto">Itens preparados para total usabilidade. Você não perde nada! Até a embalagem pode ser reutilizavél.</h3>
                 </li>
                 <li class="sobre__item sobre__item--experiencia">
                     <h2 class="item__titulo">Experiência</h2>
@@ -62,35 +65,35 @@
             <ul class="planos__caixas">
 
                 <li class="caixa caixa--pequena">
-                    <h3 class="caixa__titulo">Caixa pequena</h3>
+                    <h3 class="caixa__titulo"><span class="escondeVisualmente">Plano: </span>Caixa pequena</h3>
                     <h4 class="caixa__preco"><em>R$ 45,00</em></h4>
                     <article class="caixa__conteudo">
-                        <h5 class="caixa__texto">4 itens</h5>
-                        <h5 class="caixa__texto">2 cores para escolha</h5>
-                        <h5 class="caixa__texto ponto">Ganhe 45 pontos</h5>
-                        <a href="#" class="caixa__botao caixa__botao--pequena botao">Assinar caixa pequena</a>
+                        <p class="caixa__texto">4 itens</p>
+                        <p class="caixa__texto">2 cores para escolha</p>
+                        <p class="caixa__texto ponto">Ganhe 45 pontos</p>
+                        <a href="#" class="caixa__botao caixa__botao--pequena botao">Assinar caixa <span class="escondeVisualmente">pequena por R$ 45,00</span></a>
                     </article>
                 </li>
 
                 <li class="caixa caixa--media">
-                    <h3 class="caixa__titulo">Caixa média</h3>
+                    <h3 class="caixa__titulo"><span class="escondeVisualmente">Plano: </span>Caixa média</h3>
                     <h4 class="caixa__preco"><em>R$ 80,00</em></h4>
                     <article class="caixa__conteudo">
-                        <h5 class="caixa__texto">7 itens</h5>
-                        <h5 class="caixa__texto">+ 1 item temático*</h5>
-                        <h5 class="caixa__texto ponto">Ganhe 80 pontos</h5>
-                        <a href="#" class="caixa__botao caixa__botao--media botao">Assinar caixa média</a>
+                        <p class="caixa__texto">7 itens</p>
+                        <p class="caixa__texto">+ 1 item temático*</p>
+                        <p class="caixa__texto ponto">Ganhe 80 pontos</p>
+                        <a href="#" class="caixa__botao caixa__botao--media botao">Assinar caixa <span class="escondeVisualmente">média por R$ 80,00</span></a>
                     </article>
                 </li>
 
                 <li class="caixa caixa--grande">
-                    <h3 class="caixa__titulo">Caixa grande</h3>
+                    <h3 class="caixa__titulo"><span class="escondeVisualmente">Plano: </span>Caixa grande</h3>
                     <h4 class="caixa__preco"><em>R$ 135,00</em></h4>
                     <article class="caixa__conteudo">
-                        <h5 class="caixa__texto">12 itens</h5>
-                        <h5 class="caixa__texto">+ 1 item h5ersonalizado*</h5>
-                        <h5 class="caixa__texto ponto">Ganhe 135 pontos</h5>
-                        <a href="#" class="caixa__botao caixa__botao--grande botao">Assinar caixa grande</a>
+                        <p class="caixa__texto">12 itens</p>
+                        <p class="caixa__texto">+ 1 item personalizado*</p>
+                        <p class="caixa__texto ponto">Ganhe 135 pontos</p>
+                        <a href="#" class="caixa__botao caixa__botao--grande botao">Assinar caixa <span class="escondeVisualmente">grande por R$ 135,00</span></a>
                     </article>
                 </li>
 
@@ -100,7 +103,7 @@
         <section class="contato container" id="contato">
             <h2 class="contato__titulo">Contato</h2>
             <h3 class="contato__texto">Entre em contato conosco por nossos meios de comunicação acessando o botão abaixo!</h3>
-            <a href="#" class="contato__botao botao">Entre em contato</a>
+            <a href="contato.html" class="contato__botao botao">Entre em contato</a>
         </section>
     </main>
     
