@@ -45,9 +45,18 @@
     margin: .5rem 0;
     padding: 0.5rem;
     width: 85%;
-    
 }
-
+.formulario__input:focus{
+    border: 1px solid var(--roxo-escuro);
+    border-radius: 10px;
+    margin: .5rem 0;
+    padding: 0.5rem;
+    width: 85%;
+}
+.formulario__input::placeholder{
+    color: var(--azul-escuro);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
 .formulario__botao{
     max-width: 200px;
     margin: auto;

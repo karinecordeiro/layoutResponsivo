@@ -28,45 +28,44 @@
     </header>
     
     <main>
-        <section class="principal container" id="pularNavegacao">
+        <section class="principal container">
             <article class="fundo">
                 <h1 class="principal__titulo">Contato</h1>
                 <form action="" class="formulario">
                     <div class="formulario__divisao">
                         <label for="nome" class="formulario__label">Nome:</label>
-                        <input type="text" id="nome" class="formulario__input">
+                        <input type="text" id="nome" class="formulario__input" placeholder="insira seu nome...">
                     </div>
                     <div class="formulario__divisao">
                         <label for="email" class="formulario__label">E-mail:</label>
-                        <input type="email" name="email" id="email" class="formulario__input">
+                        <input type="email" name="email" id="email" class="formulario__input" placeholder="insira seu e-mail...">
                     </div>
                     <div  class="formulario__divisao">
                         <label for="textarea" class= "formulario__label">Mensagem:</label>
-                        <textarea name="textarea" id="textarea" cols="12" class="formulario__input" required></textarea>
+                        <textarea name="textarea" id="textarea" cols="12" class="formulario__input" placeholder="conte-nos algo.." required></textarea>
                     </div>
                     <div class="formulario__botao">
-                        <a href="#" class="contato__botao botao" role="button" id="abrirModal" >Enviar</a>
+                        <a href="#" class="contato__botao botao" role="button" id="abrirModal" type="submit">Enviar</a>
                     </div>
                 </form>
             </article>
         </section>
 
-        <div class="modalContato" id="modalContato" role="dialog">
+        <div class="modalContato" id="modalContato" role="dialog" aria-labelledby="#tituloModal" >
             <div class="modalContato-body">
-        <h2 class="modalContato-titulo">Mensagem enviada com sucesso!</h2>
-        <h3 class="modalContato-texto">
-        Você receberá um e-mail dentro de 48 horas.
-        </h3>
-        <form class="modalContato-form">
-        <button class="modalContato-fechar">
-            X
-        </button>
-        </form>
-    </div>
-    <div class="modalContato-overlay"></div>
-    </div>
-        
+                <h2 class="modalContato-titulo" role="dialog-title" id="tituloModal">Mensagem enviada com sucesso!</h2>
+                <h3 class="modalContato-texto" role="dialog-text" id="textoModal">
+                Você receberá um e-mail dentro de 48 horas.
+                </h3>
+            <form class="modalContato-form">
+                <button class="modalContato-fechar" aria-label="fechar janela modal">fechar</button>
+            </form>
+            </div>
+            <div class="modalContato-overlay"></div>
+        </div>
+
     </main>
+    
     <footer class="rodape">
         <img class="rodape__logo" src="/assets/imagem/logo.png" alt="Logo caixa secreta">
         <section class="rodape__itens">
@@ -76,6 +75,7 @@
         </section>
         <p class="rodape__texto">&copy; Todos os direitos reservados - 2022</p>
     </footer>
-</body>
-    <script src="/script.js"></script>
+
+</body> 
+    <script src="/assets/js/script.js"></script>
 </html>

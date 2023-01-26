@@ -12,7 +12,7 @@ btnAbreModal.addEventListener('click', function() {
 
 function fechandoModal() {
     document.activeElement.blur();
-    modal.classList.remove('modalContato--aberto');     
+    modal.classList.remove('modalContato--aberto');    
 }
 
 // Listeners
