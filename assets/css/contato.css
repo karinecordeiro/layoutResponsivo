@@ -35,12 +35,17 @@
     width: 80%; 
     text-align: center;
 }
-
+.formulario__label{
+    display: flex;
+    align-items: center;
+}
 .formulario__input{
     border: 1px solid var(--azul-escuro);
     border-radius: 10px;
-    padding: 0.5rem 1rem;
     margin: .5rem 0;
+    padding: 0.5rem;
+    width: 85%;
+    
 }
 
 .formulario__botao{
@@ -61,7 +66,7 @@
         margin-top: 1.5rem;
     }
     .formulario__input{
-        padding: 0.5rem 7rem;
+        width: 95%;
 
     }
 }
@@ -73,6 +78,6 @@
         text-align: start;
     }
     .formulario__input{
-        padding: 0.5rem 15rem;
+        width: 95%
     }
 }
