@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/assets/css/cabecalho.css">
     <link rel="stylesheet" href="/assets/css/principal.css">
     <link rel="stylesheet" href="/assets/css/contato.css">
+    <link rel="stylesheet" href="/assets/css/modal.css">
     <link rel="stylesheet" href="/assets/css/rodape.css">
 </head>
 <body>
@@ -33,24 +34,38 @@
                 <form action="" class="formulario">
                     <div class="formulario__divisao">
                         <label for="nome" class="formulario__label">Nome:</label>
-                        <input type="text" class="formulario__input">
+                        <input type="text" id="nome" class="formulario__input">
                     </div>
                     <div class="formulario__divisao">
                         <label for="email" class="formulario__label">E-mail:</label>
-                    <input type="email" name="email" id="email" class="formulario__input">
+                        <input type="email" name="email" id="email" class="formulario__input">
                     </div>
                     <div  class="formulario__divisao">
                         <label for="textarea" class= "formulario__label">Mensagem:</label>
-                        <textarea name="textarea" id="textarea" cols="12" class="formulario__input"></textarea>
+                        <textarea name="textarea" id="textarea" cols="12" class="formulario__input" required></textarea>
                     </div>
                     <div class="formulario__botao">
-                        <a href="#" class="contato__botao botao">Enviar</a>
+                        <a href="#" class="contato__botao botao" role="button" id="abrirModal" >Enviar</a>
                     </div>
-                    
                 </form>
             </article>
-    
         </section>
+
+        <div class="modalContato" id="modalContato" role="dialog">
+            <div class="modalContato-body">
+        <h2 class="modalContato-titulo">Mensagem enviada com sucesso!</h2>
+        <h3 class="modalContato-texto">
+        Você receberá um e-mail dentro de 48 horas.
+        </h3>
+        <form class="modalContato-form">
+        <button class="modalContato-fechar">
+            X
+        </button>
+        </form>
+    </div>
+    <div class="modalContato-overlay"></div>
+    </div>
+        
     </main>
     <footer class="rodape">
         <img class="rodape__logo" src="/assets/imagem/logo.png" alt="Logo caixa secreta">
@@ -61,6 +76,6 @@
         </section>
         <p class="rodape__texto">&copy; Todos os direitos reservados - 2022</p>
     </footer>
-
 </body>
+    <script src="/script.js"></script>
 </html>
