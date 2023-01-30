@@ -28,3 +28,7 @@ document.addEventListener('keyup', function(evento) {
         fechandoModal()
     }
 })
+
+function assinatura(){
+    alert("Você adquiriu uma de nossas caixas secretas! Obrigada.")
+}
