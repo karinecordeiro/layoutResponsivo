@@ -57,6 +57,19 @@
     color: var(--azul-escuro);
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
+.formulario__span{
+    margin-left: 2px; 
+    margin: 7px 15px;
+    font-size: .7em;
+    font-weight: bold;
+    color:var(--rosa-escuro);
+    display: none;
+}
+.formulario__validouErro{
+    border: 2px solid var(--rosa-escuro);
+    background-color: #fff;
+    position: relative;
+}
 .formulario__botao{
     max-width: 200px;
     margin: auto;
